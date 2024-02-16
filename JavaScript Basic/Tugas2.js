@@ -26,4 +26,4 @@ switch (hari) {
 } 
 console.log(`Hari ini adalah hari ${hari}`)
 
-// EASYYYYY BOOMMM!!!!!! OWH YEAHHH!!!!!
+// EASYYYYY BOOMMM!!!!!! OWH YEAHHH!!!! BLEYADDDD!!!!
