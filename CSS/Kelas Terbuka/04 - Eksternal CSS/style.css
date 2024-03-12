@@ -1,0 +1,21 @@
+/*tanpa pembukaan apapun langsung saja*/
+h1 {
+    color:crimson;
+    font-size: 30px;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+p {
+    color: blueviolet;
+    font-family: Arial;
+    font-size: 30px;
+    text-align: left;
+}
+b {
+    /* this will change all the bold text to blue, for label we will soonn learn about it */
+    color: blue;
+}
+i {
+    background-color: yellow;
+}
