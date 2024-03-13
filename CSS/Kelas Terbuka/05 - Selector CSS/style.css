@@ -1,0 +1,69 @@
+/* pakai control+/ untuk comment */
+
+
+/* 1. Universal selector (pakai * untuk perubahan keseluruhan isi file) */
+
+* {
+    font-family: arial;
+    margin: 3;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Type selector (berdasar tag, seluruh nama tag sama akan kenak) */
+h1 {
+    color: darkolivegreen;
+}
+h2 {
+    color: crimson;
+}
+
+/* 3. Class selector, di html file tag yang kita targetin kasih attribute class*/
+li.satu {
+    color: darkblue;
+}
+li.dua {
+    color: darkgreen;
+}
+li.tiga {
+    color: firebrick;
+}
+li.empat {
+    color: darkslategray;
+}
+li.lima {
+    color: indigo;
+}
+
+/* 4. ID selector, di html file tag yang kita targetin kasih attribute id */
+#tiga {
+    color: darkorange;
+    /* mirip class tapi gaperlu di deklarasiin juga tipe tagnya */
+}
+
+/* 5. Child selector (> anak dari)*/
+p > b {
+    /* p > b (b adalah anak dari p) */
+    color: darkred;
+}
+
+/* 6. Descendant selector (spasi) */
+/* setlah kita tambahi italic diluar bold nya tag p, kalau pakai child selector dia gabakal work karena bold didalam si italic, caranya pakai descendant selector */
+p b {
+    color: darkblue;
+}
+/* di CSS urutan juga matter ya, dia bakal pilih yang terakhir untuk latest changes */
+
+/* 7. Adjacent sibling selector (+) */
+/* ambil yang posisinya setelah sesuatu */
+p + h2 {
+    /* p + h2 artinya h2 setelah paragrapph */
+    color: deeppink;
+}
+
+/* 8. General sibling selector (~) */
+/* ambil yang posisinya setelah sesuatu */
+p ~ h2 {
+    /* p ~ h2 artinya cari h2 setelah paragrapph */
+    background-color: lightgray;
+}
