@@ -31,3 +31,4 @@ Tapi ga disarankan, karena susah di maintain (apalagi kalau ada atribute lainnya
             font-size: 30px; -font-size disebut property
             color: green; -green disebut valuenya
         }
+    more to come bakal dipelajari langsung di tiap folder.
